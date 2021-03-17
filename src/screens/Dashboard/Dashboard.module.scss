@@ -1,0 +1,72 @@
+@import '../../assets/scss/variable';
+
+.dashboard {
+    
+    header {
+        max-width: 1165px;
+        //margin-bottom: 10px;
+    }
+}
+
+header {
+    padding-top: 38px;
+    padding-bottom: 41px; 
+
+    .title, .cards {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .title {
+        align-items: center;
+        padding-bottom: 10px;
+    }
+}
+
+.content {
+    display: flex;
+}
+
+.statuses {
+    max-width: 575px;
+    flex-grow: 1;
+}
+
+.projects {
+    max-width: 575px;
+    margin-left: 15px;
+    flex-grow: 1;
+
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+
+    .headerRight {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.projectsCards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    header {
+
+        .cards {
+            flex-wrap: wrap;
+        }
+
+        .card {
+            width: 230px;  
+        }
+    }
+}
+

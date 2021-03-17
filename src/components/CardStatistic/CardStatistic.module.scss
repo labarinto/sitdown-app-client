@@ -1,0 +1,33 @@
+.card {
+    width: 280px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    .circle {
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        padding-top: 7px; 
+        color: white;
+    }
+}
+
+.largeText {
+    font-size: 6.5rem;
+    padding-top: 15px;
+}
+
+.percText {
+    padding-top: 5px;
+}
+
+.green { color: #30C431 }
+.red { color: #EF3737 }
+
+.yellow { background-color: #EBDB82 }
+.blue { background-color: #82CFEB }
+.purple { background-color: #B282EB }
+.pink { background-color: #EB82A6 }

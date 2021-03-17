@@ -1,0 +1,35 @@
+@import '../../assets//scss/variable';
+
+.memberSelect {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.members {
+    display: flex;
+    
+    .member {
+        width: 60px;
+        margin-bottom: 10px;
+        
+    }
+
+    .memberImg {
+        cursor: pointer;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-bottom: 5px;
+    }
+}
+
+.addMemberIcon {
+    font-size: 5.0rem;
+    color: rgba($primary-color, 0.7);
+    margin-right: 10px;
+    cursor: pointer;
+
+    &:hover {
+        color: $primary-color;
+    }
+}

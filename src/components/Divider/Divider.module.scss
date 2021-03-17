@@ -1,0 +1,12 @@
+.divider {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+
+    .line {
+        margin-left: 10px;
+        flex: 1;
+        display: inline-block;
+        border: 1px solid #E6E7E8;
+    }
+}

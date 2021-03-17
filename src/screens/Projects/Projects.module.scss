@@ -1,0 +1,20 @@
+.projects {
+    padding-top: 38px;
+
+    article {
+        margin-top: 40px;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .cardProject {
+        margin-right: 15px;
+    }
+}
+
+.button {
+    margin-left: 20px;
+}

@@ -1,0 +1,11 @@
+.modalConfirm {
+    position: fixed;
+    top: 80vh;
+    left: 50px;
+    z-index: 10;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}

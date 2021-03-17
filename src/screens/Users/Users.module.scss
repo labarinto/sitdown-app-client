@@ -1,0 +1,62 @@
+@import '../../assets/scss/variable';
+.users {
+    padding-top: 38px;
+
+    .headings {
+        margin-top: 58px;
+        display: flex;
+        float: right;
+
+        p {
+            margin-left: 40px;
+        }
+    }
+
+    section {
+        margin-top: 92px;
+    }
+
+    article {
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+        padding: 10px 20px;
+        border: 1px solid #E6E7E8;
+        border-radius: 5px;
+    }
+
+    .flex {
+        display: flex;
+        align-items: center;
+    }
+
+    .text {
+        padding-left: 27px;
+    }
+}
+
+.circle {
+    width: 65px;
+    height: 65px;
+    background-color: rgba(grey, 0.6);
+    border-radius: 50%;
+}
+
+.stats {
+
+    div {
+        margin-left: 60px;
+        width: 41px;
+        height: 41px;
+        border-radius: 50%;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        padding-top: 10px;
+    }
+}
+
+.red { background-color: #FF6565;}
+.blue { background-color: $primary-color;}
+.green { background-color: #05E6D7;}

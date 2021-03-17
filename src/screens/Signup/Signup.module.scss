@@ -1,0 +1,32 @@
+@import '../../assets/scss/variable';
+
+.signup {
+    margin: 0 auto;
+    margin-top: 170px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 480px;
+    
+    input {
+        margin: 10px 0 5px 0;
+    }
+
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.button {
+    margin-top: 15px;
+}
+
+.link {
+
+    &:hover {
+        color: $primary-color;
+    }
+}

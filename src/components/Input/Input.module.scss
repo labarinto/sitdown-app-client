@@ -1,0 +1,42 @@
+@import '../../assets//scss/variable';
+
+.input {
+
+}
+
+.flexRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inputElem {
+    border: 1px $grey solid;
+    background-color: $white2;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    height: 40px;
+    font-size: 1.6rem;
+    color: $black;
+    
+    &::placeholder {
+        color: $grey2;
+    }   
+}
+
+.inputError {
+    border-color: #EF3737;
+}
+
+.error {
+    float: right;
+    color: $error;
+    font-size: 10px;
+    margin-bottom: -5px;
+}
+
+.disabled {
+    opacity: .5;
+    cursor:no-drop;
+}

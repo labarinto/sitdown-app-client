@@ -1,0 +1,45 @@
+@import './assets/scss/variable';
+@import './assets/scss/typography';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  line-height: 1;
+}
+
+body, div, span, h1, h2, h3, h4, h5, h6, p, a {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  font-family: $font-stack;
+  color: $black;
+  font-size: 1.4rem;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  border: 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+main {
+  width: 100%;
+  padding: 0 48px 50px 153px;
+  background-color: #F5F7FA;
+  min-height: 100vh;
+}

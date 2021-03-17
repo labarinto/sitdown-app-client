@@ -1,0 +1,53 @@
+@import '../../assets/scss/variable';
+
+.login {
+    margin: 0 auto;
+    margin-top: 170px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 480px;
+    
+    input {
+        margin: 10px 0 5px 0;
+    }
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.divider {
+    margin-top: 10px;
+}
+
+.googleLogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        padding-right: 10px; 
+    }
+}
+
+.forgot {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.errorMessage {
+    padding-top: 2px;
+    float: left;
+}
+
+.link {
+    cursor: pointer;
+    
+    &:hover {
+        color: $primary-color;
+    }
+}

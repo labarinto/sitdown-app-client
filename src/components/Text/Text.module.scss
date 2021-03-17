@@ -1,0 +1,44 @@
+@import '../../assets/scss/variable';
+
+.padY5 { padding: 5px 0 }
+.padY10 { padding: 10px 0 }
+.padY15 { padding: 15px 0 }
+.padX5 { padding: 0 5px }
+.padX10 { padding: 0 10px }
+.padX15 { padding: 0 15px }
+.padL5 { padding-left: 5px }
+.padL10 { padding-left: 10px }
+.padL15 { padding-left: 15px }
+.padB5 { padding-bottom: 5px }
+.padB10 { padding-bottom: 10px }
+.padB15 { padding-bottom: 15px }
+
+.size12 { font-size: 1.2rem }
+//.size14 { font-size: 1.4rem }
+.size16 { font-size: 1.6rem }
+.size18 { font-size: 1.8rem }
+.size20 { font-size: 2.0rem }
+.size24 { font-size: 2.4rem }
+
+.light { font-weight: lighter }
+.medium { font-weight: 500 }
+.bold { font-weight: bold }
+.bolder { font-weight: bolder }
+
+.opac90 { opacity: .9 }
+.opac80 { opacity: .8 }
+.opac70 { opacity: .7 }
+.opac60 { opacity: .6 }
+.opac50 { opacity: .5 }
+.opac40 { opacity: .4 }
+
+.primary { color: $primary-color }
+.tertiary { color: $tertiary-color }
+.black { color: $black }
+.black2 { color: $black2 }
+.white { color: $white }
+.error { color: $error}
+.brandColor { color: $brand-color}
+
+.underline { text-decoration: underline }
+.capitalise { text-transform: capitalize}

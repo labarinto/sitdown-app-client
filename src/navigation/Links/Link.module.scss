@@ -1,0 +1,13 @@
+@import '../../assets/scss/variable';
+
+.icon {
+    font-size: 2.0rem;
+    color: rgba($black, 0.5);
+}
+
+.activeLink {
+    
+    .icon {
+        color: $primary-color;
+    }
+}

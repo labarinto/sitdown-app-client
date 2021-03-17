@@ -1,0 +1,25 @@
+@import '../../assets/scss/variable';
+
+.container {
+    display: inline-block;
+}
+
+.iconCard {
+    
+    display: flex;
+    flex-wrap: wrap;
+    width: 20px;
+
+    .square {
+        width: 7px;
+        height: 7px;
+        margin: 1px;
+        background-color: rgba($black2, 0.7);
+    }
+}
+
+.active {
+    .square {
+        background-color: $primary-color;
+    }
+}

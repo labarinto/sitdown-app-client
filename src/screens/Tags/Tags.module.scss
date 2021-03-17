@@ -1,0 +1,36 @@
+@import '../../assets/scss/variable';
+
+.tags {
+    padding-top: 38px;
+}
+
+.button {
+    margin-left: 20px;
+}
+
+.optionsContainer {
+    margin: 42px 0 25px 0;
+    float: right;
+    background-color: #EBEFF0;
+    padding: 5px;
+    display: flex;
+
+    .icon {
+        background-color: #EBEFF0;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+    .active {
+        background-color: $white;
+    }
+}
+
+.statuses {
+    margin-top: 115px; 
+
+    section {
+        margin-bottom: 30px;
+    }
+}

@@ -1,0 +1,16 @@
+.links {
+    text-align: center;
+    width: 100%;
+    
+    ul {
+        padding: 0;
+    }
+
+    li {
+        margin-bottom: 30px;
+        
+        svg:hover {
+            color: rgba(grey, 0.5);
+        }
+    }
+}

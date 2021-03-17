@@ -1,0 +1,16 @@
+@import '../../assets/scss/variable';
+
+.iconTable {
+    display: inline-block;
+
+    .line {
+        width: 15px;
+        height: 7px;
+        background-color: rgba($black2, 0.7);
+        margin-top: 1px;
+    }
+}
+
+.active {
+    background-color: $primary-color;
+}

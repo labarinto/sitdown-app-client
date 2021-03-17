@@ -1,0 +1,33 @@
+@import '../../assets/scss/variable';
+
+.button {
+    padding: 10px;
+    cursor: pointer;
+    font-family: $font-stack;
+    border-radius: 5px;
+
+    &:hover {
+        opacity: 0.7;
+    }
+}
+
+.font20 { font-size: 2.0rem }
+.font16 { font-size: 1.6rem }
+.font12 { font-size: 1.2rem }
+
+.fullWidth {
+    width: 100%;
+}
+
+.primary {
+    border: 1px $tertiary-color solid;
+    background-color: $primary-color;
+    color: $white;
+}
+
+.white {
+    border: none;
+    box-shadow: 0px 0px 3px #00000040;
+    background-color: $white;
+    color: $black;
+}

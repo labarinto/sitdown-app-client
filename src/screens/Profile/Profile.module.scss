@@ -1,0 +1,108 @@
+@import '../../assets/scss/variable';
+
+.profile {
+    padding-top: 44px;
+
+    .card {
+        padding: 40px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .title {
+        width: 90%;
+        margin-bottom: 28px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        width: 210px;
+    }
+}
+
+.profileInfo {
+    margin-left: 108px;
+    width: 60%;
+
+    input {
+        border-radius: 5px;
+        width: 414px;
+        height: 40px;
+        border: 1px solid #B4B8BC80;
+        margin-bottom: 20px;
+    }
+
+    .avatar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .avatarPicture {
+            position: relative;
+            align-self: center;
+        }
+
+        .avatarIconContainer {
+            position: absolute;
+            top: 100px;
+            left: 100px;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            background-color: $white;
+            text-align: center;
+        }
+
+        .avatarIcon {
+            color: $black;
+            font-size: 25px;
+            margin-top: 5px;
+            cursor: pointer;
+
+            &:hover {
+                color: rgba($black, 0.8);
+            }
+        }
+
+        .circle {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+    }
+
+    .formContainer { 
+        width: 414px;
+
+        .button {
+            margin-top: 20px;
+            float: left;
+        }
+    }
+
+    section {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .email {
+        padding: 40px 0;
+        margin: 40px 0;
+        border-top: 1px solid #B4B8BC80;
+        border-bottom: 1px solid #B4B8BC80;
+    }
+
+    .password {
+        margin-bottom: 40px;
+        align-items: center;
+    }
+
+    .textButtons {
+        cursor: pointer;
+    }
+
+    .button {
+        float: right;
+    }
+}
